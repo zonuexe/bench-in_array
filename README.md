@@ -5,8 +5,8 @@
 ## 実行方法
 
 ```
-./composer install
-php -n ./vendor/bin/phpbench run --report=consumation_of_time tests/Bench/
+composer install
+php -n ./vendor/bin/phpbench run --report=all tests/Bench/
 ```
 
 ## 結果
