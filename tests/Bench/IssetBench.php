@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace zonuexe;
 
+use function array_flip;
+
 /**
  * @Revs(10)
  * @Iterations(1)
@@ -16,6 +18,7 @@ class IssetBench
     private $prop = [];
 
     /**
+     * @Warmup
      * @ParamProviders("provideArray")
      * @param array{list<mixed>}
      */
@@ -29,6 +32,7 @@ class IssetBench
     }
 
     /**
+     * @Warmup
      * @ParamProviders("provideArray")
      * @param array{list<mixed>}
      */
@@ -43,6 +47,7 @@ class IssetBench
     }
 
     /**
+     * @Warmup
      * @ParamProviders("provideArray")
      * @param array{list<mixed>}
      */

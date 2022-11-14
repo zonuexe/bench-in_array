@@ -13,6 +13,7 @@ class InArrayBench
     use ArrayProvider;
 
     /**
+     * @Warmup
      * @ParamProviders("provideArray")
      * @param array{list<mixed>}
      */
@@ -27,6 +28,7 @@ class InArrayBench
 
 
     /**
+     * @Warmup
      * @ParamProviders("provideArray")
      * @param array{list<mixed>}
      */
