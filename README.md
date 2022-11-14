@@ -11,4 +11,4 @@ php -n ./vendor/bin/phpbench run --report=consumation_of_time tests/Bench/
 
 ## 結果
 
-![bench](img/result-m1mac.png)
+![bench](img/result-m1mac-2.png)
